@@ -1,8 +1,8 @@
 package P02_AccessProtection.p1;
 
-public class C03_Main {
-    C03_Main() {
-        C01_Main p = new C01_Main();
+public class SamePackage {
+    SamePackage() {
+        Protection p = new Protection();
         System.out.println("same package constructor");
         System.out.println("n = " + p.n);
         

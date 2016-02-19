@@ -1,7 +1,7 @@
 package P02_AccessProtection.p2;
 
-public class C01_Main extends P02_AccessProtection.p1.C01_Main {
-    C01_Main() {
+public class Protection2 extends P02_AccessProtection.p1.Protection {
+    Protection2() {
         System.out.println("derived other package constructor");
         
         // Class or package only

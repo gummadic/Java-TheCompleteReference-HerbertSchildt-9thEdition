@@ -1,7 +1,7 @@
 package P02_AccessProtection.p1;
 
-public class C02_Main extends C01_Main {
-    C02_Main() {
+public class Derived extends Protection {
+    Derived() {
         System.out.println("derived constructor");
         System.out.println("n = " + n);
         

@@ -1,10 +1,10 @@
 package P01_Packages;
 
-public class C01_Main {
+public class Balance {
     String name;
     double balance;
     
-    C01_Main(String n, double b) {
+    Balance(String n, double b) {
         name = n;
         balance = b;
     }
