@@ -1,4 +1,4 @@
-package P01_InheritenceBasics;
+package P01_InheritanceBasics;
 
 // Here, Box is extended to include weight.
 public class BoxWeight extends Box {

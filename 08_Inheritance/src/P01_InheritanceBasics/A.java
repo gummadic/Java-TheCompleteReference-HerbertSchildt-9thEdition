@@ -1,6 +1,6 @@
 // A simple example of inheritence.
 
-package P01_InheritenceBasics;
+package P01_InheritanceBasics;
 
 // Create a superclass.
 public class A {

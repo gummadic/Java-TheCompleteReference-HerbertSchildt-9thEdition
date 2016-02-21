@@ -1,4 +1,4 @@
-package P01_InheritenceBasics;
+package P01_InheritanceBasics;
 
 // This program uses inheritance to extend Box.
 public class Box {

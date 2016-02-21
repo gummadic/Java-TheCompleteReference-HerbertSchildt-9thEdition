@@ -1,4 +1,4 @@
-package P01_InheritenceBasics;
+package P01_InheritanceBasics;
 
 public class SimpleInheritance {
     public static void main(String args[]) {

@@ -1,4 +1,4 @@
-package P01_InheritenceBasics;
+package P01_InheritanceBasics;
 
 public class RefDemo {
     public static void main(String args[]) {

@@ -1,4 +1,4 @@
-package P01_InheritenceBasics;
+package P01_InheritanceBasics;
 
 // Create a subclass by extending class A.
 public class B extends A {

@@ -1,4 +1,4 @@
-package P01_InheritenceBasics;
+package P01_InheritanceBasics;
 
 // Here, Box is extended to include color.
 public class ColorBox extends Box {
