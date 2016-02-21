@@ -1,5 +1,72 @@
 package P02_UsingSuper;
 
+// A complete implementation of BoxWeight.
+class Box {
+    private double width;
+    private double height;
+    private double depth;
+    
+    // Construct clone of an object.
+    Box(Box ob) { // Pass object to constructor.
+        width = ob.width;
+        height = ob.height;
+        depth = ob.depth;
+    }
+    
+    // Constructor used when all dimesions specified.
+    Box(double w, double h, double d) {
+        width = w;
+        height = h;
+        depth = d;
+    }
+    
+    // Constructor used when no dimesions specified.
+    Box() {
+        width = -1;  // Use -1 to indicate
+        height = -1; // an uninitialized
+        depth = -1;  // box.
+    }
+    
+    // Constructor used when cube is created.
+    Box(double len) {
+        width = height = depth = len;
+    }
+    
+    // Compute and return volume.
+    double volume() {
+        return width * height * depth;
+    }
+}
+
+// BoxWeight now uses super to initialize its Box attributes.
+class BoxWeight extends Box {
+    double weight; // Weight of box.
+    
+    // Construct clone of an object.
+    BoxWeight(BoxWeight ob) { // Pass object to constructor.
+        super(ob);
+        weight = ob.weight;
+    }
+    
+    // Initialize width, height and depth using super().
+    BoxWeight(double w, double h, double d, double m) {
+        super(w, h, d); // Call superclass constructor.
+        weight = m;
+    }
+    
+    // Default constructor.
+    BoxWeight() {
+        super();
+        weight = -1;
+    }
+    
+    // Constructor used when cube is created.
+    BoxWeight(double len, double m) {
+        super(len);
+        weight = m;
+    }
+}
+
 public class DemoSuper {
     public static void main(String args[]) {
         BoxWeight mybox1 = new BoxWeight(10, 20, 15, 34.3);
