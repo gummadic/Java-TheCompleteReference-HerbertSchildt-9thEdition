@@ -1,11 +1,11 @@
 package P11_CreatingYourOwnExceptionSubclasses;
 
-public class C02_Main {
-    static void compute(int a) throws C01_Main {
+public class ExceptionDemo {
+    static void compute(int a) throws MyException {
         System.out.println("Called compute(" + a + ")");
         
         if(a > 10) {
-            throw new C01_Main(a);
+            throw new MyException(a);
         }
         
         System.out.println("Normal exit");
@@ -15,7 +15,7 @@ public class C02_Main {
         try {
             compute(1);
             compute(20);
-        } catch(C01_Main e) {
+        } catch(MyException e) {
             System.out.println("Caught: " + e);
         }
     }

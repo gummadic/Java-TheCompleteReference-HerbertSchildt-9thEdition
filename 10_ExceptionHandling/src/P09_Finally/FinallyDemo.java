@@ -1,6 +1,6 @@
 package P09_Finally;
 
-public class C01_Main {
+public class FinallyDemo {
     // Throw an exception out of the method.
     static void procA() {
         try {

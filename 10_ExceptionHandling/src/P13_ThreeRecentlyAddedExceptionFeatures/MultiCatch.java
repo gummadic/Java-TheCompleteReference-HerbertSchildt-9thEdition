@@ -1,6 +1,6 @@
 package P13_ThreeRecentlyAddedExceptionFeatures;
 
-public class C01_Main {
+public class MultiCatch {
     public static void main(String args[]) {
         int a = 10;
         int b = 0;

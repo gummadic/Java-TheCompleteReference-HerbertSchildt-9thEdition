@@ -1,9 +1,9 @@
 package P11_CreatingYourOwnExceptionSubclasses;
 
-public class C01_Main extends Exception {
+public class MyException extends Exception {
     private int detail;
     
-    C01_Main(int a) {
+    MyException(int a) {
         detail = a;
     }
     

@@ -1,6 +1,6 @@
 package P12_ChainedExceptions;
 
-public class C01_Main {
+public class ChainExcDemo {
     static void demoproc() {
         // Create an exception.
         NullPointerException e = new NullPointerException("top layer");

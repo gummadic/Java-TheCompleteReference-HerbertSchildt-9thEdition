@@ -1,6 +1,6 @@
 package P07_Throw;
 
-public class C01_Main {
+public class ThrowDemo {
     static void demoproc() {
         try {
             throw new NullPointerException("demo");

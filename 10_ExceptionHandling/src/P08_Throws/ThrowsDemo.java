@@ -1,6 +1,6 @@
 package P08_Throws;
 
-public class C01_Main {
+public class ThrowsDemo {
     static void throwOne() throws IllegalAccessException {
         System.out.println("Inside throwOne");
         throw new IllegalAccessException("demo");
