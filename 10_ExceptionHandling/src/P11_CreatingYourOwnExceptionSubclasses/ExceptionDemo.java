@@ -1,5 +1,17 @@
 package P11_CreatingYourOwnExceptionSubclasses;
 
+class MyException extends Exception {
+    private int detail;
+    
+    MyException(int a) {
+        detail = a;
+    }
+    
+    public String toString() {
+        return "C01_Main[" + detail + "]";
+    }
+}
+
 public class ExceptionDemo {
     static void compute(int a) throws MyException {
         System.out.println("Called compute(" + a + ")");
