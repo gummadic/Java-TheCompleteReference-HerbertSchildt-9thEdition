@@ -1,5 +1,22 @@
 package P01_Packages;
 
+class Balance {
+    String name;
+    double balance;
+    
+    Balance(String n, double b) {
+        name = n;
+        balance = b;
+    }
+    void show() {
+        if(balance < 0) {
+            System.out.print("--> ");
+        }
+        
+        System.out.println(name + ": $" + balance);
+    }
+}
+
 public class AccountBalance {
     public static void main(String args[]) {
         Balance current[] = new Balance[3];
