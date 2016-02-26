@@ -1,9 +1,9 @@
 package P04_Interfaces;
 
-public class InterfaceTest3 {
+public class IFTest3 {
     public static void main(String args[]) {
         IntStack mystack;
-        DynamicStack ds = new DynamicStack(5);
+        DynStack ds = new DynStack(5);
         FixedStack fs = new FixedStack(8);
         
         mystack = ds;

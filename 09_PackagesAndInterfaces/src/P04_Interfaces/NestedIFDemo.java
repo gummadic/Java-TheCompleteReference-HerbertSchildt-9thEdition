@@ -1,6 +1,18 @@
 package P04_Interfaces;
 
-public class NestedInterfaceDemo {
+class A {
+    public interface NestedInterface {
+        boolean isNotNegative(int x);
+    }
+}
+
+class B implements A.NestedInterface {
+    public boolean isNotNegative(int x) {
+        return x < 0 ? false : true;
+    }
+}
+
+public class NestedIFDemo {
     public static void main(String args[]) {
         A.NestedInterface nif = new B();
         

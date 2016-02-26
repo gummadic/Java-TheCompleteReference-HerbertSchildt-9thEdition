@@ -1,6 +1,6 @@
 package P04_Interfaces;
 
-public class MyClass implements B2 {
+class MyClass implements B2 {
     public void method1() {
         System.out.println("Implement method1()");
     }
@@ -11,5 +11,15 @@ public class MyClass implements B2 {
     
     public void method3() {
         System.out.println("Implement method3()");
+    }
+}
+
+public class IFExtend {
+    public static void main(String args[]) {
+        MyClass ob = new MyClass();
+        
+        ob.method1();
+        ob.method2();
+        ob.method3();
     }
 }
