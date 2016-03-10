@@ -1,7 +1,7 @@
 package P01_OverloadingMethods;
 
 /* Here, Box defines three constructors to initialize
-the dimensions of a box various ways.*/
+the dimensions of a box various ways. */
 class Box {
     double width;
     double height;
