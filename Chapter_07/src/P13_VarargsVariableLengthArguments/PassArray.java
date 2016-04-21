@@ -1,4 +1,4 @@
-package VarargsVariableLengthArguments;
+package P13_VarargsVariableLengthArguments;
 
 // Use an array to pass a variable number of
 // arguments to a method. This is the old-style

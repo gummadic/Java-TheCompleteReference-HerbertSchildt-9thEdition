@@ -1,4 +1,4 @@
-package VarargsVariableLengthArguments;
+package P13_VarargsVariableLengthArguments;
 
 public class VarArgs {
     // vaTest() now uses vaargs.

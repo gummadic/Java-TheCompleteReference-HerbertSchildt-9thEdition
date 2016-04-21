@@ -1,4 +1,4 @@
-package VarargsVariableLengthArguments;
+package P13_VarargsVariableLengthArguments;
 
 // Use varargs with standard arguments.
 public class VarArgs2 {

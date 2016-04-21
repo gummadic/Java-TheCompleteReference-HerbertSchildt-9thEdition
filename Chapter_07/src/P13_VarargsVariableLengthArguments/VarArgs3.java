@@ -1,4 +1,4 @@
-package VarargsVariableLengthArguments;
+package P13_VarargsVariableLengthArguments;
 
 public class VarArgs3 {
     static void vaTest(int ... v) {
