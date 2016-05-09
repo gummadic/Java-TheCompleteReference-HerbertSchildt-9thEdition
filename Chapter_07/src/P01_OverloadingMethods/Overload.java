@@ -16,7 +16,7 @@ class OverloadDemo {
         System.out.println("a and b: " + a + " " + b);
     }
     
-    // Overload test for a double parameter
+    // Overload test for a double parameter.
     double test(double a) {
         System.out.println("double a: " + a);
         return a * a;
@@ -27,7 +27,7 @@ class Overload {
     public static void main(String args[]) {
         OverloadDemo ob = new OverloadDemo();
         double result;
-        // call all versions of test()
+        // Call all versions of test().
         ob.test();
         ob.test(10);
         ob.test(10, 20);
