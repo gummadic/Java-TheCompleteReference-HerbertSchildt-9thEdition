@@ -3,7 +3,7 @@ package P02_ReadingConsoleInput;
 import java.io.*;
 
 
-public class BRReader {
+public class BRRead {
     public static void main(String args[]) throws IOException {
         char c;
         BufferedReader br = new
