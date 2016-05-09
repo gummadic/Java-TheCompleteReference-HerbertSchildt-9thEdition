@@ -1,7 +1,7 @@
 package P10_IntroducingNestedAndInnerClasses;
 
 // Define an inner class within a for loop.
-class Outer2 {
+class Outer3 {
     int outer_x = 100;
     
     void test() {
@@ -20,7 +20,7 @@ class Outer2 {
 
 public class InnerClassDemo3 {
     public static void main(String args[]) {
-        Outer2 outer = new Outer2();
+        Outer3 outer = new Outer3();
         outer.test();
     }
 }
