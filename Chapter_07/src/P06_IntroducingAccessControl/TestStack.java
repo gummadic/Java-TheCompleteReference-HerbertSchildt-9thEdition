@@ -53,7 +53,7 @@ public class TestStack {
             System.out.println(mystack2.pop());
         }
         
-        // The statements are not legal
+        // The statements are not legal.
         // mystack1.tos = -2;
         // mystack2.stck[3] = 100;
     }
